@@ -1,0 +1,16 @@
+.comment-heading {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.comment-txtarea {
+  width: 100%;
+}
+.comment-btn button {
+  background-color: #33b7ff;
+  border: none;
+  color: #fff;
+  padding: 15px 50px;
+  font-size: 1rem;
+  float: right;
+  margin-top: 20px;
+}

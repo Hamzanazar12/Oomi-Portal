@@ -1,0 +1,47 @@
+.text {
+  font-size: 2rem;
+  text-align: center;
+}
+.dropdown {
+  display: grid;
+}
+.label-text {
+  color: grey;
+  padding: 10px 0px;
+}
+.dropdown-text {
+  border: none;
+  padding-bottom: 20px;
+}
+.ticket-type {
+  width: 30%;
+}
+.text-set {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.text-field .ip-text {
+  border: none !important;
+  color: grey;
+  padding: 20px 0px;
+  width: 100%;
+}
+.description-text {
+  display: grid;
+  padding: 10px 0px;
+}
+.create-btn {
+  background: #33b7ff;
+  border: 1px solid #33b7ff;
+  padding: 20px;
+  color: #fff;
+  width: 20%;
+  font-size: 1rem;
+}
+.button-div {
+  text-align: center;
+  padding: 30px;
+}
+.create-ticket {
+  padding: 0% 20%;
+}

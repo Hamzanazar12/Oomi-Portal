@@ -1,0 +1,13 @@
+.time-spent {
+  color: grey;
+}
+.comment-view {
+  margin-top: 2rem;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid lightgrey;
+  border-bottom: none;
+}
+.comment-div {
+  margin-top: 6rem;
+}
