@@ -1,0 +1,28 @@
+.summary-text {
+  font-size: 2rem;
+  margin: 0px;
+}
+.summary {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 60px;
+}
+.view-usage-btn {
+  background: #33b7ff;
+  border: 1px solid #33b7ff;
+  padding: 15px;
+  color: #fff;
+  margin-left: 50px;
+  width: 70%;
+}
+.S-table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+.S-table td {
+  padding: 15px;
+}

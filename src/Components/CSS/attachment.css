@@ -1,0 +1,23 @@
+.upload {
+  opacity: 0;
+  position: relative;
+  top: 20px;
+}
+#button {
+  position: relative;
+  background: none;
+  border: 2px solid #33b7ff;
+  color: #33b7ff;
+
+  padding-bottom: 20px;
+}
+
+.upload-file {
+  border: 1px solid grey;
+  border-style: dashed;
+  text-align: center;
+  padding: 50px 0px;
+}
+.main-upload-div {
+  padding: 10px 0px;
+}

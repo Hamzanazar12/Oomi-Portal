@@ -1,0 +1,36 @@
+.table-caption {
+  font-size: 1rem;
+  color: grey;
+}
+
+.updated-ticket-table .table-div {
+  width: 100%;
+  color: #282b3e;
+  border-spacing: 0 15px;
+  font-size: 1rem;
+}
+.updated-ticket-table .table-div .header-row th {
+  text-align: left;
+  background: #282b3e;
+  color: #fff;
+  padding: 20px;
+}
+.td-btn {
+  border: 2px solid #282b3e;
+  background: none;
+  padding: 0px 5px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #282b3e;
+}
+.btn-done {
+  border: 2px solid #4ee911;
+  background: none;
+  padding: 0px 5px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #4ee911;
+}
+.td-id {
+  color: #33b7ff;
+}

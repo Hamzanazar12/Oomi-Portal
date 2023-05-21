@@ -1,0 +1,36 @@
+.filter-sec {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  padding: 20px 20px 5px;
+}
+.select-option {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid grey;
+  border-right: none;
+}
+.filter-txt {
+  padding: 10px 0px;
+}
+.input-text input {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid grey;
+  border-right: none;
+  padding: 10px 0px 30px 0px;
+  background-color: #fff;
+}
+.filter-div {
+  display: flex;
+}
+.Filter-button {
+  border: #33b7ff 2px solid;
+  background-color: #fff;
+  padding: 10px 10px;
+  color: #33b7ff;
+  font-size: 1rem;
+}
+.filter-btn-div {
+  padding: 30px;
+}
