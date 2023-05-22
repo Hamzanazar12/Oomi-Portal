@@ -4,7 +4,7 @@ import { Axios } from "axios";
 import { toast } from "react-toastify";
 
 
-import "bootstrap/dist/css/bootstrap.css";
+
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
 import "./CSS/login.css";
@@ -15,77 +15,77 @@ function Login() {
   const [password,setPassword]=useState("");
 
   
-  const usenavigate=useNavigate();
+//   const usenavigate=useNavigate();
 
-  useEffect(()=>{
-sessionStorage.clear();
-  },[]);
+//   useEffect(()=>{
+// sessionStorage.clear();
+//   },[]);
 
-  // const ProceedLogin = (e) => {
+//   // const ProceedLogin = (e) => {
       
-  //     if (validate()) {
-  //         ///implentation
-  //         console.log('proceed');
-  //         fetch("https://ruqiahussain.atlassian.net/rest/api/3/user?accountId=712020:ab45fef9-7ae3-410b-8737-f36ce7e00f6a",
-  //         { username,
-  //           password,},
-  //         {
-  //           method:'POST',
-  //           headers:{'Accept': 'application/json',
-  //           'Content-Type': 'application/json',
-  //           },
-  //         } ).then
-  //         ((res) => {
-  //             return res.json();
-  //         }).then((resp) => {
-  //             //console.log(resp)
-  //             if (Object.keys(resp).length === 0) {
-  //                 toast.error('Please Enter valid username');
-  //             } else {
-  //                 if (resp.password === password) {
-  //                     toast.success('Success');
-  //                     sessionStorage.setItem('username',username);
-  //                     sessionStorage.setItem('userrole',resp.role);
-  //                     usenavigate('/')
-  //                 }else{
-  //                     toast.error('Please Enter valid credentials');
-  //                 }
-  //             }
-  //         }).catch((err) => {
-  //             toast.error('Login Failed due to :' + err.message);
-  //         });
-  //     }
-  // }
+//   //     if (validate()) {
+//   //         ///implentation
+//   //         console.log('proceed');
+//   //         fetch("https://ruqiahussain.atlassian.net/rest/api/3/user?accountId=712020:ab45fef9-7ae3-410b-8737-f36ce7e00f6a",
+//   //         { username,
+//   //           password,},
+//   //         {
+//   //           method:'POST',
+//   //           headers:{'Accept': 'application/json',
+//   //           'Content-Type': 'application/json',
+//   //           },
+//   //         } ).then
+//   //         ((res) => {
+//   //             return res.json();
+//   //         }).then((resp) => {
+//   //             //console.log(resp)
+//   //             if (Object.keys(resp).length === 0) {
+//   //                 toast.error('Please Enter valid username');
+//   //             } else {
+//   //                 if (resp.password === password) {
+//   //                     toast.success('Success');
+//   //                     sessionStorage.setItem('username',username);
+//   //                     sessionStorage.setItem('userrole',resp.role);
+//   //                     usenavigate('/')
+//   //                 }else{
+//   //                     toast.error('Please Enter valid credentials');
+//   //                 }
+//   //             }
+//   //         }).catch((err) => {
+//   //             toast.error('Login Failed due to :' + err.message);
+//   //         });
+//   //     }
+//   // }
 
-  const handleSubmit = () => {
+//   const handleSubmit = () => {
       
-    var token='UnVxaWEuY29kZUBnbWFpbC5jb206QVRBVFQzeEZmR0YwS1J3VkVMZEZua2VUZVoxdGVGN1UwMy0tblAwQTJpVk56U2o3NHZJeGJpZy1jNHdSbWw2cWFmSzF2d3J2a2JOM1dkSWpBVXJOdmFoYkJUTFAyWE05ajdPQ2l5U3V1WW9EaG5vNFZ0RDhiQm81S1pOd1JXNXJKOWw2R2JXUnlWU0g5WWdFWlVDUjdZeTVCczZkUHh3TUhPNDJJeUtQanBCRFhYNERkaWl5Q1p3PTE1OEJGOTQ5'
-    if (validate()) {
-    ///implentation
-    console.log('proceed');
-    console.log(username)
-    let inputobj={"username": username,
-    "password": password};
-    fetch("https://ruqiahussain.atlassian.net/rest/auth/1/session",{
-      'username':username,
-      'password':password
-    },
+//     var token='UnVxaWEuY29kZUBnbWFpbC5jb206QVRBVFQzeEZmR0YwS1J3VkVMZEZua2VUZVoxdGVGN1UwMy0tblAwQTJpVk56U2o3NHZJeGJpZy1jNHdSbWw2cWFmSzF2d3J2a2JOM1dkSWpBVXJOdmFoYkJUTFAyWE05ajdPQ2l5U3V1WW9EaG5vNFZ0RDhiQm81S1pOd1JXNXJKOWw2R2JXUnlWU0g5WWdFWlVDUjdZeTVCczZkUHh3TUhPNDJJeUtQanBCRFhYNERkaWl5Q1p3PTE1OEJGOTQ5'
+//     if (validate()) {
+//     ///implentation
+//     console.log('proceed');
+//     console.log(username)
+//     let inputobj={"username": username,
+//     "password": password};
+//     fetch("https://ruqiahussain.atlassian.net/rest/auth/1/session",{
+//       'username':username,
+//       'password':password
+//     },
   
    
-    {
-        method:'POST',
+//     {
+//         method:'POST',
         
-        headers:{ 'Accept': 'application/json',
-        'credentials': "include",
-        'Content-Type': 'application/json',
-        'Authorization':`Basic ${token}`,
+//         headers:{ 'Accept': 'application/json',
+//         'credentials': "include",
+//         'Content-Type': 'application/json',
+//         'Authorization':`Basic ${token}`,
         
      
 
 
-'Access-Control-Allow-Methods':' POST, PUT, PATCH, GET, DELETE, OPTIONS',
+// 'Access-Control-Allow-Methods':' POST, PUT, PATCH, GET, DELETE, OPTIONS',
 
-'Access-Control-Allow-Headers': 'Origin, X-Api-Key, X-Requested-With, Content-Type, Accept, Authorization'
+// 'Access-Control-Allow-Headers': 'Origin, X-Api-Key, X-Requested-With, Content-Type, Accept, Authorization'
 
 
         
@@ -93,20 +93,20 @@ sessionStorage.clear();
         
           
       
-      },
-        body:JSON.stringify({username,password})
-    }).then((res) => {
-        return res.json();
+//       },
+//         body:JSON.stringify({username,password})
+//     }).then((res) => {
+//         return res.json();
         
-    }).then((resp) => {
-        console.log(resp)
-        if (Object.keys(resp).length === 0) {
-            toast.error('Login failed, invalid credentials');
-        }else{
-             toast.success('Success');
+//     }).then((resp) => {
+//         console.log(resp)
+//         if (Object.keys(resp).length === 0) {
+//             toast.error('Login failed, invalid credentials');
+//         }else{
+//              toast.success('Success');
             
-           usenavigate('/Support')
-        }
+//            usenavigate('/Support')
+//         }
         // if (Object.keys(resp).length === 0) {
         //     toast.error('Please Enter valid username');
         // } else {
@@ -118,22 +118,22 @@ sessionStorage.clear();
         //         toast.error('Please Enter valid credentials');
         //     }
         // }
-    }).catch((err) => {
-        toast.error('Login Failed due to :' + err.message);
-    });
+  //   }).catch((err) => {
+  //       toast.error('Login Failed due to :' + err.message);
+  //   });
   
-  }}
-  const validate = () => {
-    let result = true;
-    if (username === '' || username === null) {
-        result = false;
-        toast.warning('Please Enter Username');
-    }
-    if (password === '' || password === null) {
-        result = false;
-        toast.warning('Please Enter Password');
-    }
-    return result;}
+  // }}
+  // const validate = () => {
+  //   let result = true;
+  //   if (username === '' || username === null) {
+  //       result = false;
+  //       toast.warning('Please Enter Username');
+  //   }
+  //   if (password === '' || password === null) {
+  //       result = false;
+  //       toast.warning('Please Enter Password');
+  //   }
+  //   return result;}
 
   // const handleSubmit = async () => {
     
@@ -209,11 +209,11 @@ sessionStorage.clear();
               </span>
             </div>
             <div class="fv-flex-action mt-3">
-              {/* <Link to="/Support"> */}
-                <a onClick={()=>handleSubmit()} href="#" class="fv-button fv-primary-button fv-resp-w100">
+              <Link to="/Support">
+                <a href="#" class="fv-button fv-primary-button fv-resp-w100">
                   Log in
                 </a>
-              {/* </Link> */}
+              </Link>
             </div>
           </div>
         </div>

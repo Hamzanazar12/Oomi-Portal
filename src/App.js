@@ -11,7 +11,7 @@ import Login from "./Components/LogIn";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Support">
         <Routes>
           <Route exact path="/" element={<Login />} />
           <Route exact path="/Support" element={<Support />} />
