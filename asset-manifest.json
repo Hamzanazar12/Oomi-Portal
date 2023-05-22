@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Oomi-Portal/static/css/main.7e111025.css",
-    "main.js": "/Oomi-Portal/static/js/main.77c0e5b5.js",
+    "main.js": "/Oomi-Portal/static/js/main.e6f07957.js",
     "index.html": "/Oomi-Portal/index.html",
     "main.7e111025.css.map": "/Oomi-Portal/static/css/main.7e111025.css.map",
-    "main.77c0e5b5.js.map": "/Oomi-Portal/static/js/main.77c0e5b5.js.map"
+    "main.e6f07957.js.map": "/Oomi-Portal/static/js/main.e6f07957.js.map"
   },
   "entrypoints": [
     "static/css/main.7e111025.css",
-    "static/js/main.77c0e5b5.js"
+    "static/js/main.e6f07957.js"
   ]
 }
