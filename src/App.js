@@ -7,13 +7,15 @@ import ViewTicket from "./Components/ViewTicket";
 import TicketDetail from "./Components/TicketDetail";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./Components/LogIn";
+import JiraCallbackPage from "./Components/Callback";
 
 function App() {
   return (
     <div className="App">
-      <Router basename="/Support">
+      <Router basename="/">
         <Routes>
           <Route exact path="/" element={<Login />} />
+          <Route exact path="/Callback" element={<JiraCallbackPage/>} />
           <Route exact path="/Support" element={<Support />} />
           <Route exact path="/CreateTicket" element={<CreateTicket />} />
           <Route exact path="/ViewTicket" element={<ViewTicket />} />
