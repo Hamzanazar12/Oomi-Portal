@@ -10,7 +10,7 @@ function TicketDetail() {
       <div className="ticket-detail">
         <div className="ticket-text">
           <h1>
-            CITMA-740: [RFA] OSD-7155 - Pull off of member data from preside
+            CITMA-723: [RFA] OSD-7155 - Pull off of member data from preside
           </h1>
           <p>
             <b>Support (Contract)</b> - Standard

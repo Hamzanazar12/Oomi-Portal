@@ -36,3 +36,10 @@
 .td-time-align {
   text-align: center;
 }
+.td-id a {
+  color: #33b7ff;
+  text-decoration: none;
+}
+.support-ticket {
+  margin-top: 60px;
+}

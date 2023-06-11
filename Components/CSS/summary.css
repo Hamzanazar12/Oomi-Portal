@@ -5,7 +5,7 @@
 .summary {
   display: grid;
   grid-template-columns: auto auto;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .view-usage-btn {
   background: #33b7ff;
