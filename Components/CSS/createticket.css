@@ -1,6 +1,7 @@
 .text {
-  font-size: 2rem;
+  font-size: 40px;
   text-align: center;
+  font-weight: 600;
 }
 .dropdown {
   display: grid;
@@ -31,17 +32,22 @@
   padding: 10px 0px;
 }
 .create-btn {
-  background: #33b7ff;
-  border: 1px solid #33b7ff;
+  background: #000;
+  border: 1px solid #000;
   padding: 20px;
   color: #fff;
-  width: 20%;
-  font-size: 1rem;
+  border-radius: 30px;
+  width: 15%;
+  font-size: 20px;
 }
 .button-div {
   text-align: center;
   padding: 30px;
 }
 .create-ticket {
-  padding: 0% 20%;
+  padding-top: 5rem;
+  font-size: 20px;
+}
+.attachment-text {
+  padding-top: 10px !important;
 }

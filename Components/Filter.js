@@ -19,9 +19,13 @@ function Filter() {
           <input type="text" placeholder="Raised by"></input>
         </div>
         <div className="filter-sec">
-          <label className="filter-txt">From</label>
+          <label for="start" className="filter-txt">
+            From
+          </label>
           <select className="select-option">
-            <option></option>
+            <option>
+              <input type="date" id="start"></input>
+            </option>
           </select>
         </div>
         <div className="filter-sec">

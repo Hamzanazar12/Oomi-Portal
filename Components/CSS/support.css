@@ -1,25 +1,32 @@
 .support-sec {
   background: #fff;
+  padding: 50px;
 }
 .support-details {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 69rem auto;
   padding: 10px;
 }
 .support-details .CITMA-link {
   text-decoration: none;
-  color: #33b7ff;
+  color: #f9cb4b;
   vertical-align: -webkit-baseline-middle;
+
+  font-size: 20px;
 }
 .support-details .ticket-btn {
-  background: #33b7ff;
-  border: 1px solid #33b7ff;
+  background: #000;
+  border: 1px solid #000;
   padding: 10px;
   color: #fff;
-  margin-right: 5px;
+  margin-right: 10px;
+  border-radius: 30px;
+  width: 10rem;
+  font-size: 20px;
 }
 .support-text {
-  font-size: 2rem;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 /*for checkbox*/
@@ -27,8 +34,8 @@ input[type="checkbox"] + label:before {
   content: "\2714";
   border: 0.1em solid grey;
   border-radius: 0.1em;
-  width: 1em;
-  height: 1em;
+  width: 1.2em;
+  height: 1.2em;
   margin-right: 0.2em;
   color: transparent;
 }
@@ -36,7 +43,7 @@ input[type="checkbox"] + label:before {
 input[type="checkbox"]:checked + label:before {
   background-color: #fff;
   border-color: grey;
-  color: #33b7ff;
+  color: #f9cb4b !important;
 }
 .CB-hide {
   display: none;

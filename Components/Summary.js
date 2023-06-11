@@ -1,18 +1,26 @@
 import React from "react";
 import "./CSS/summary.css";
+import { useNavigate } from 'react-router-dom';
+
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
-const Summary = () => {
+const Summary = ({token,accountId}) => {
+  const navigate = useNavigate();
+  const ViewDetails = () => {
+    navigate(`/LineChart?token=${token}&accountId=${accountId}`);
+  };
+  console.log("summart",token,accountId)
   return (
     <>
+
       <div className="summary">
         <p className="summary-text">
           Summary of support Status for Chartered Institute of Trade Mark
           Attorneys
         </p>
-        <Link to="/LineChart">
-          <button className="view-usage-btn">View usage details</button>
-        </Link>
+      
+          <button onClick={()=>ViewDetails()} className="view-usage-btn">View usage details</button>
+      
       </div>
       <div className="summary-table">
         <table className="S-table">

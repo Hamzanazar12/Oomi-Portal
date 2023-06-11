@@ -1,14 +1,16 @@
 .view-ticket-btn {
-  background: #33b7ff;
-  border: 1px solid #33b7ff;
+  font-size: 20px;
+  background: #000;
+  border: 1px solid #000;
   padding: 10px;
   color: #fff;
   margin-right: 5px;
+  border-radius: 30px;
 }
 .view-ticket-CBsec {
   display: flex;
   flex-direction: column;
-  width: 12%;
+  width: 15%;
   float: right;
 }
 
@@ -17,4 +19,8 @@
 }
 .checkbox-label {
   padding-top: 20px;
+  font-size: 20px;
+}
+.vt-main-div {
+  padding: 50px;
 }

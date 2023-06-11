@@ -2,19 +2,29 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  padding: 5rem 50px 0px 50px;
 }
 .ticket-text {
   width: 80%;
+  font-size: 20px;
 }
 .ticket-status {
   display: flex;
   flex-direction: column;
   width: 85%;
   float: right;
+  font-size: 20px;
 }
 .checkbox-hide {
   display: none;
 }
 .label-text {
-  padding: 0px !important;
+  padding: 0px;
+}
+.ticket-text h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.ticket-status .CB-hide label {
+  font-size: 20px;
 }

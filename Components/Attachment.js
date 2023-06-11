@@ -59,7 +59,6 @@ class App extends Component {
             Or, if you prefer...
           </p>
           <button id="button">
-            {" "}
             <input
               className="upload"
               type="file"

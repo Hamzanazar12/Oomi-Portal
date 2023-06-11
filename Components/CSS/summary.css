@@ -1,23 +1,27 @@
 .summary-text {
-  font-size: 2rem;
-  margin: 0px;
+  font-size: 40px;
+  font-weight: 600;
 }
 .summary {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 55rem auto;
   margin-top: 60px;
 }
 .view-usage-btn {
-  background: #33b7ff;
-  border: 1px solid #33b7ff;
+  background: #000;
+  border: 1px solid #000;
   padding: 15px;
   color: #fff;
   margin-left: 50px;
-  width: 70%;
+  width: 35%;
+  float: right;
+  border-radius: 30px;
+  font-size: 20px;
 }
 .S-table {
   border-collapse: collapse;
   width: 80%;
+  font-size: 20px;
 }
 
 tr {

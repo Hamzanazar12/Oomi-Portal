@@ -1,7 +1,7 @@
 .vtheader-div {
   display: flex;
   width: 100%;
-
+  padding: 20px 50px;
   background: none;
   border: none;
 }
@@ -13,7 +13,7 @@
   background: none;
   border: none;
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 20px;
   font-weight: 700;
   border-top: none;
   border-left: none;
@@ -21,7 +21,7 @@
   border-bottom: 1px solid grey;
 }
 .vtheader-btn.for-flex:focus {
-  background-color: #ec4220;
+  background-color: #f9cb4b;
   color: white;
 }
 .vtheader-btn.for-flex:focus a {

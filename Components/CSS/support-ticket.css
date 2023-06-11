@@ -1,43 +1,43 @@
 .ST-text {
-  font-size: 2rem;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .ticket .ticket-table {
   width: 100%;
   color: #282b3e;
   border-spacing: 0 15px;
-  font-size: 1rem;
+  font-size: 20px;
 }
 .ticket .ticket-table .th-row th {
-  text-align: left;
-  background: #282b3e;
+  background: #000;
   color: #fff;
-  padding: 20px;
+  padding: 25px;
 }
-.td-btn {
-  border: 2px solid #282b3e;
+.ST-td-btn {
+  border: 3px solid #000;
   background: none;
   padding: 0px 5px;
-  border-radius: 10px;
-  font-weight: 900;
-  color: #282b3e;
+  border-radius: 15px;
+  color: #000000;
+  font-weight: 600;
 }
-.btn-done {
-  border: 2px solid #4ee911;
+.ST-btn-done {
+  border: 3px solid #f9cb4b;
   background: none;
   padding: 0px 5px;
-  border-radius: 10px;
-  font-weight: 900;
-  color: #4ee911;
+  border-radius: 15px;
+  color: #f9cb4b;
+  font-weight: 600;
 }
 .td-id {
-  color: #33b7ff;
+  color: #f9cb4b;
 }
 .td-time-align {
   text-align: center;
 }
 .td-id a {
-  color: #33b7ff;
+  color: #f9cb4b;
   text-decoration: none;
 }
 .support-ticket {

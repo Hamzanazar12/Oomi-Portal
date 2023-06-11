@@ -25,12 +25,18 @@
   display: flex;
 }
 .Filter-button {
-  border: #33b7ff 2px solid;
+  border: #f9cb4b 3px solid;
   background-color: #fff;
-  padding: 10px 10px;
-  color: #33b7ff;
-  font-size: 1rem;
+  padding: 10px 30px;
+  color: #f9cb4b;
+  font-size: 20px;
+  border-radius: 30px;
 }
 .filter-btn-div {
   padding: 30px;
+}
+
+.filter-div {
+  padding: 10px 50px;
+  font-size: 20px;
 }
